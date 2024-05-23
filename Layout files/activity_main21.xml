@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3E9DF"
+    tools:context=".MainActivity21">
+
+    <View
+        android:id="@+id/background_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/timeofcall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="170dp"
+        android:textColor="#8A7B68"
+        android:textSize="24sp"
+        android:text="50:08"/>
+
+    <TextView
+        android:id="@+id/nameofcaller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="155dp"
+        android:textColor="#8A7B68"
+        android:textSize="24sp"
+        android:text="Ali Khan"/>
+
+
+    <ImageView
+        android:id="@+id/johncooper"
+        android:layout_width="128dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/johncooper" />
+
+    <View
+        android:layout_width="162dp"
+        android:layout_height="10dp"
+        android:layout_gravity="start|top"
+        android:layout_marginLeft="130dp"
+        android:layout_below="@+id/background_view"
+        android:layout_marginTop="-130dp"
+        android:background="#8CAFAF" />
+
+
+
+    <ImageView
+        android:id="@+id/mice"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_below="@+id/background_view"
+        android:layout_marginTop="-90dp"
+        android:src="@drawable/mice" />
+
+    <ImageView
+        android:id="@+id/sound"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="140dp"
+        android:layout_below="@+id/background_view"
+        android:layout_marginTop="-90dp"
+        android:src="@drawable/sound" />
+
+    <ImageView
+        android:onClick="joinChannel"
+        android:id="@+id/pause"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:src="@drawable/pause"
+        android:layout_marginStart="240dp"
+        android:layout_below="@+id/background_view"
+        android:layout_marginTop="-90dp"/>
+
+    <ImageView
+        android:onClick="leaveChannel"
+        android:id="@+id/end"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:src="@drawable/end"
+        android:layout_marginStart="340dp"
+        android:layout_below="@+id/background_view"
+        android:layout_marginTop="-90dp"/>
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+

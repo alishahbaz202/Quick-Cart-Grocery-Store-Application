@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity18">
+
+
+    <TextView
+        android:id="@+id/groceryplustext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Grocery Plus"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#37474F"
+        android:clickable="true"
+        android:focusable="true" />
+
+
+    <TextView
+        android:id="@+id/notificationemojitext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="45dp"
+        android:text="🔔"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#37474F"
+        android:clickable="true"
+        android:focusable="true" />
+
+
+
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="20dp"
+        android:hint="Search Anything"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/FilterIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/filter"
+        android:layout_alignEnd="@id/searchEditText"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="-3dp"
+        android:padding="8dp"/>
+
+
+    <ImageView
+        android:id="@+id/meal1View"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="230dp"
+        android:src="@drawable/meal1" />
+
+    <ImageView
+        android:id="@+id/meal2View"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="230dp"
+        android:src="@drawable/meal2" />
+
+    <ImageView
+        android:id="@+id/meal3View"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/meal3" />
+
+    <ImageView
+        android:id="@+id/meal4View"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/meal4" />
+
+    <ImageView
+        android:id="@+id/meal5View"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="570dp"
+        android:src="@drawable/meal5" />
+
+
+    <ImageView
+        android:id="@+id/meal6View"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="570dp"
+        android:src="@drawable/meal6" />
+
+
+
+    <!-- Bottom Navigation View -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/meal6View"
+        app:menu="@menu/guest_navigation"
+        app:backgroundTint="#F3E9DF"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
+
+
+
+
+
+

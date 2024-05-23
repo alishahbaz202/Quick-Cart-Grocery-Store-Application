@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity17">
+
+    <!-- "Add New Mentor" Text -->
+    <TextView
+        android:id="@+id/textSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Guest Mode"
+        android:textStyle="bold"
+        android:textColor="#0C0C0C"
+        android:textSize="30sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/EditProfiletext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home Page"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+
+
+
+    <TextView
+        android:id="@+id/MyWishlisttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Wishlist"
+        android:layout_marginTop="210dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/Chatwithustext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat with us"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/TalktoourSupporttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Talk to our Support"
+        android:layout_marginTop="330dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/searchsomethingtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Something"
+        android:layout_marginTop="390dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/Messagetofacebookpagetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message to facebook page"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/Logouttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log out"
+        android:layout_marginTop="510dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+
+
+
+
+    <ImageView
+        android:id="@+id/edit1View"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/edit1" />
+
+
+
+
+    <ImageView
+        android:id="@+id/edit4View"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="210dp"
+        android:src="@drawable/edit4" />
+
+    <ImageView
+        android:id="@+id/edit5View"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="270dp"
+        android:src="@drawable/edit5" />
+
+    <ImageView
+        android:id="@+id/edit6View"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="330dp"
+        android:src="@drawable/edit6" />
+
+    <ImageView
+        android:id="@+id/edit7View"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="390dp"
+        android:src="@drawable/edit1" />
+
+
+    <ImageView
+        android:id="@+id/edit8View"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/edit8" />
+
+    <ImageView
+        android:id="@+id/edit9View"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="510dp"
+        android:src="@drawable/edit9" />
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+

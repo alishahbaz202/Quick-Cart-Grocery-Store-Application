@@ -1,0 +1,183 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFFFF">
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/blueBackground"
+        android:layout_width="match_parent"
+        android:layout_height="590dp"
+        android:layout_alignParentBottom="true"
+
+        android:background="@drawable/rounded_top_blue">
+
+
+        <!-- White Box for Upload Photo -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rounded_outlined"
+            android:padding="16dp">
+            <!-- Upload Photo ImageButton -->
+            <ImageButton
+                android:id="@+id/buttonUploadPhoto"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/camera_image"
+                android:scaleType="centerInside"
+                android:contentDescription="Upload Photo"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/textUploadPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/buttonUploadPhoto"
+                android:text="Upload Photo"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!-- "Add New Mentor" Text -->
+    <TextView
+        android:id="@+id/textnewMentor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Item"
+        android:textStyle="bold"
+        android:textColor="#8A7B68"
+        android:textSize="30sp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"/>
+
+    <!-- "Help us expand!" Text -->
+    <TextView
+        android:id="@+id/textForgotPasswordDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help us expand!"
+        android:textColor="#8A7B68"
+        android:textSize="22sp"
+        android:layout_below="@id/textnewMentor"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- "Email" Text -->
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#8A7B68"
+        android:layout_marginTop="360dp"
+        android:layout_marginStart="40dp"/>
+
+    <!-- Input Box for Email with Rounded Corners -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textName"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Enter Item Name"
+        android:padding="5dp"
+        android:background="@drawable/rounded_edit_text"/>
+
+    <!-- "Description" Text -->
+    <TextView
+        android:id="@+id/textDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:layout_below="@id/textName"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#8A7B68"
+        android:layout_marginTop="45dp"
+        android:layout_marginStart="40dp"/>
+
+    <!-- Input Box for Description with Rounded Corners -->
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textDescription"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Enter Price"
+        android:padding="5dp"
+        android:background="@drawable/rounded_edit_text"/>
+
+    <!-- "Status" Text -->
+    <TextView
+        android:id="@+id/textCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:layout_below="@id/textDescription"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#8A7B68"
+        android:layout_marginTop="45dp"
+        android:layout_marginStart="40dp"/>
+
+    <!-- Input Box for Description with Rounded Corners -->
+    <EditText
+        android:id="@+id/editTextCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textCategory"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Enter Category"
+        android:padding="5dp"
+        android:background="@drawable/rounded_edit_text"/>
+
+    <!-- "Upload" Button -->
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_green_button_background"
+        app:backgroundTint="@null"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="16dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <ImageView
+        android:id="@+id/buttonLeftArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/baseline_arrow_back_24"
+        app:tint="#8A7B68"
+        android:clickable="true"
+        android:onClick="onLeftArrowClicked" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_browse_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="#FFFFFF"
+    tools:ignore="MergeRootFrame">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="Logo Image"
+        android:src="@drawable/logo" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/logoImageView"
+        android:layout_marginTop="20dp"
+        android:background="#F3E9DF" />
+
+    <TextView
+        android:id="@+id/GetStarted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImageView"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Get Started!"
+        android:typeface="sans"
+        android:textSize="40sp"
+        android:textColor="#8A7B68"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/GetStarted"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="20dp"
+        android:text="Name"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#8A7B68" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameLabel"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#FFFFFF"
+        android:hint="Enter Name"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/emailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameEditText"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:text="Email"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#8A7B68" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailLabel"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#FFFFFF"
+        android:hint="Enter Email"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/countryLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailEditText"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:text="Country"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#8A7B68" />
+
+    <EditText
+        android:id="@+id/countryEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/countryLabel"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#FFFFFF"
+        android:hint="Select Country"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/cityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/countryEditText"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="20dp"
+        android:text="City"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#8A7B68" />
+
+    <EditText
+        android:id="@+id/cityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cityLabel"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#FFFFFF"
+        android:hint="Select City"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/passwordLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cityEditText"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="20dp"
+        android:text="Password"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#8A7B68" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordLabel"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#FFFFFF"
+        android:hint="Enter your password"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/passwordRequirements"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordEditText"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:text="Password must be at least 8 characters long."
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#8A7B68" />
+
+    <Button
+        android:id="@+id/SignUpButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/alreadyLogInTextView"
+        android:layout_marginBottom="30dp"
+        android:text="Sign Up"
+        android:textSize="18sp"
+        android:textColor="#8A7B68"
+        android:textStyle="bold"
+        android:backgroundTint="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/alreadyLogInTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="4dp"
+        android:text="Don't want to make an account? Guest Mode"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:textColor="#8A7B68" />
+
+
+</RelativeLayout>

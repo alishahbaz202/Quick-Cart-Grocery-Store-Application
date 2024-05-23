@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity14">
+
+    <TextView
+        android:id="@+id/backwardArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1dp"
+        android:text="&#x2190;"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#37474F"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/notificationtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="80dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+
+
+    <TextView
+        android:id="@+id/order1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order #345"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+
+
+    <TextView
+        android:id="@+id/desc1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Order is Confirmed. Please
+check everything is okay"
+        android:layout_marginTop="210dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textSize="16sp"/>
+
+
+
+    <TextView
+        android:id="@+id/order2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order #346"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+
+
+    <TextView
+        android:id="@+id/desc2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Order is Delivering to your home"
+        android:layout_marginTop="310dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textSize="16sp"/>
+
+
+    <TextView
+        android:id="@+id/order3TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order #347"
+        android:layout_marginTop="380dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+
+
+    <TextView
+        android:id="@+id/desc3TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Order is Confirmed. Please
+check everything is okay"
+        android:layout_marginTop="410dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textSize="16sp"/>
+
+
+    <TextView
+        android:id="@+id/order4TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order #348"
+        android:layout_marginTop="480dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+
+
+    <TextView
+        android:id="@+id/desc4TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Order is Confirmed. Please
+check everything is okay"
+        android:layout_marginTop="510dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textSize="16sp"/>
+
+
+    <ImageView
+        android:id="@+id/not1ImageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/not3" />
+
+    <ImageView
+        android:id="@+id/not2ImageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/not2" />
+
+    <ImageView
+        android:id="@+id/not3ImageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/not3" />
+
+    <ImageView
+        android:id="@+id/not4ImageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="500dp"
+        android:src="@drawable/not4" />
+
+    <TextView
+        android:id="@+id/time1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3:57 PM"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="10dp"
+        android:textColor="#37474F"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/time2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2:33 PM"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="10dp"
+        android:textColor="#37474F"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/time3TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4:12 AM"
+        android:layout_marginTop="380dp"
+        android:layout_marginStart="10dp"
+        android:textColor="#37474F"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/time4TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:07 AM"
+        android:layout_marginTop="480dp"
+        android:layout_marginStart="10dp"
+        android:textColor="#37474F"
+        android:textSize="14sp"/>
+
+
+</RelativeLayout>
+
+
+
+
+
+

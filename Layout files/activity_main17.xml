@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity17">
+
+    <TextView
+        android:id="@+id/moretext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="More"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#37474F"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/profilepictureView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/profilepicture" />
+
+
+    <TextView
+        android:id="@+id/nametext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shafikul Islam"
+        android:layout_marginTop="90dp"
+        android:layout_marginStart="110dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/phonetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01xxxxxxxxxx"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="110dp"
+        android:textColor="#37474F"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/EditProfiletext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/MyAddresstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Address"
+        android:layout_marginTop="230dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/MyOrderstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Orders"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/MyWishlisttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Wishlist"
+        android:layout_marginTop="330dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/Chatwithustext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat with us"
+        android:layout_marginTop="380dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/TalktoourSupporttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Talk to our Support"
+        android:layout_marginTop="430dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/searchsomethingtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Something"
+        android:layout_marginTop="480dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/Messagetofacebookpagetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add To Your Wishlist"
+        android:layout_marginTop="530dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/Logouttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log out"
+        android:layout_marginTop="630dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+
+    <TextView
+        android:id="@+id/submitfeedbacktext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Feedback on Orders"
+        android:layout_marginTop="580dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+
+    <ImageView
+        android:id="@+id/edit1View"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/edit1" />
+
+    <ImageView
+        android:id="@+id/edit2View"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="230dp"
+        android:src="@drawable/edit2" />
+
+    <ImageView
+        android:id="@+id/edit3View"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="280dp"
+        android:src="@drawable/edit3" />
+
+    <ImageView
+        android:id="@+id/edit4View"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="330dp"
+        android:src="@drawable/edit4" />
+
+    <ImageView
+        android:id="@+id/edit5View"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="280dp" />
+
+
+    <ImageView
+        android:id="@+id/edit12View"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="380dp"
+        android:src="@drawable/edit5" />
+
+    <ImageView
+        android:id="@+id/edit6View"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="430dp"
+        android:src="@drawable/edit6" />
+
+    <ImageView
+        android:id="@+id/edit7View"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="480dp"
+        android:src="@drawable/edit1" />
+
+
+    <ImageView
+        android:id="@+id/edit8View"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="530dp"
+        android:src="@drawable/edit8" />
+
+    <ImageView
+        android:id="@+id/edit9View"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="630dp"
+        android:src="@drawable/edit9" />
+
+
+    <ImageView
+        android:id="@+id/edit10View"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="580dp"
+        android:src="@drawable/edit3" />
+
+    <!-- Bottom Navigation View -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:menu="@menu/bottom_navigation_menu"
+        app:backgroundTint="#F3E9DF"
+        android:layout_alignParentBottom="true" />
+
+
+
+</RelativeLayout>

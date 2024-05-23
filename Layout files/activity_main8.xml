@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity8">
+
+    <TextView
+        android:id="@+id/backwardArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1dp"
+        android:text="&#x2190;"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#37474F"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/backwardArrow"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:hint="Search"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/popularsearchtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular Searches"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="20dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+
+    <TextView
+        android:id="@+id/ricetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rice"
+        android:layout_marginTop="260dp"
+        android:layout_marginStart="50dp"
+        android:textColor="#37474F"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/ricelinetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="__________________________________________"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="10dp"
+        android:textColor="#37474F"
+        android:textSize="24sp"/>
+
+
+    <TextView
+        android:id="@+id/breadtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bread"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="50dp"
+        android:textColor="#37474F"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/breadlinetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="__________________________________________"
+        android:layout_marginTop="340dp"
+        android:layout_marginStart="10dp"
+        android:textColor="#37474F"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/biscuitstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biscuits"
+        android:layout_marginTop="380dp"
+        android:layout_marginStart="50dp"
+        android:textColor="#37474F"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/biscuitslinetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="__________________________________________"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="10dp"
+        android:textColor="#37474F"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/milktext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Milk"
+        android:layout_marginTop="440dp"
+        android:layout_marginStart="50dp"
+        android:textColor="#37474F"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/milklinetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="__________________________________________"
+        android:layout_marginTop="460dp"
+        android:layout_marginStart="10dp"
+        android:textColor="#37474F"
+        android:textSize="24sp"/>
+
+</RelativeLayout>

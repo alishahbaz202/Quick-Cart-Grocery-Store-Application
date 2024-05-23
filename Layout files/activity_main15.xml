@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity15">
+
+    <TextView
+        android:id="@+id/backwardArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1dp"
+        android:text="&#x2190;"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#37474F"
+        android:clickable="true"
+        android:focusable="true" />
+
+
+    <TextView
+        android:id="@+id/addtowishlisttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to Wishlist"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="90dp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+
+
+    <EditText
+        android:id="@+id/productnameEditTextt"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="30dp"
+        android:background="#F7F9FA"
+        android:hint="Product Name"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/amountEditTextt"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="30dp"
+        android:background="#F7F9FA"
+        android:hint="Amount"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/brandEditTextt"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="30dp"
+        android:background="#F7F9FA"
+        android:hint="Brand (Optional)"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:textColor="#000000"/>
+
+
+    <ImageView
+        android:id="@+id/uploadImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="171dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="350dp"
+        android:src="@drawable/uploadimage" />
+
+    <Button
+        android:id="@+id/savetowishlistButton"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:text="Save to Wishlist"
+        android:layout_marginTop="680dp"
+        android:layout_marginStart="110dp"
+        android:textSize="18sp"
+        android:textColor="#FDFDFC"
+        android:textStyle="bold"
+        android:backgroundTint="#8A7B68" />
+
+
+</RelativeLayout>
+
+
+
+
+
+

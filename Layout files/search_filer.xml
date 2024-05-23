@@ -1,0 +1,229 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+
+    <!-- Blue Background -->
+    <RelativeLayout
+        android:id="@+id/blueBackground"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rounded_bottom_background">
+
+        <!-- Left Arrow Button -->
+        <ImageButton
+            android:id="@+id/buttonLeftArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:background="@android:color/transparent"
+            app:tint="#131313" />
+
+        <!-- "Hi, I’m John Cooper" Text -->
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search Filter"
+            android:textStyle="bold"
+            android:textColor="#1E1D1D"
+            android:textSize="30sp"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="60dp"/>
+
+    </RelativeLayout>
+
+    <!-- Type Row -->
+    <TextView
+        android:id="@+id/textType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blueBackground"
+        android:text="Type"
+        android:layout_marginTop="50dp"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:paddingStart="8dp"
+        android:paddingTop="8dp" />
+
+    <LinearLayout
+        android:id="@+id/layoutTypeOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/textType"
+        android:layout_marginTop="8dp">
+
+        <CheckBox
+            android:id="@+id/typeOption1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fruits        "
+            android:layout_weight="1"
+            android:background="@drawable/checkbox_selector" />
+
+        <CheckBox
+            android:id="@+id/typeOption2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Breakfast    "
+            android:layout_weight="1"
+            android:background="@drawable/checkbox_selector" />
+
+        <CheckBox
+            android:id="@+id/typeOption3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beverages"
+            android:layout_weight="1"
+            android:background="@drawable/checkbox_selector" />
+
+    </LinearLayout>
+
+    <!-- Second LinearLayout for the additional three checkboxes -->
+    <LinearLayout
+        android:id="@+id/layoutTypeOptions2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/layoutTypeOptions"
+        android:layout_marginTop="8dp">
+
+        <CheckBox
+            android:id="@+id/typeOption4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meat"
+            android:layout_weight="1"
+            android:background="@drawable/checkbox_selector" />
+
+        <CheckBox
+            android:id="@+id/typeOption5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Snacks"
+            android:layout_weight="1"
+            android:background="@drawable/checkbox_selector" />
+
+        <CheckBox
+            android:id="@+id/typeOption6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dairy"
+            android:layout_weight="1"
+            android:background="@drawable/checkbox_selector" />
+
+    </LinearLayout>
+
+
+
+
+    <!-- Price Row -->
+    <TextView
+        android:id="@+id/textPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:paddingStart="8dp"
+        android:paddingTop="16dp"
+        android:layout_below="@id/layoutTypeOptions2"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/checkbox_selector" />
+
+    <LinearLayout
+        android:id="@+id/layoutPriceOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/textPrice"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/checkbox_selector" >
+
+        <CheckBox
+            android:id="@+id/priceOption1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1-20"
+            android:layout_weight="1"
+            android:background="@drawable/checkbox_selector" />
+
+        <CheckBox
+            android:id="@+id/priceOption2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20-40"
+            android:layout_weight="1"
+            android:background="@drawable/checkbox_selector" />
+
+        <CheckBox
+            android:id="@+id/priceOption3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="40-60"
+            android:layout_weight="1"
+            android:background="@drawable/checkbox_selector" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutPriceOptions2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/layoutPriceOptions"
+        android:layout_marginTop="8dp">
+
+        <CheckBox
+            android:id="@+id/priceOption4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="60-80"
+            android:layout_weight="1"
+            android:background="@drawable/checkbox_selector" />
+
+        <CheckBox
+            android:id="@+id/priceOption5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="80-100"
+            android:layout_weight="1"
+            android:background="@drawable/checkbox_selector" />
+
+        <CheckBox
+            android:id="@+id/priceOption6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100-120"
+            android:layout_weight="1"
+            android:background="@drawable/checkbox_selector" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/SignUpButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/layoutPriceOptions2"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="80dp"
+        android:text="Apply Filters"
+        android:textSize="24sp"
+        android:textColor="#8A7B68"
+        android:textStyle="bold"
+        android:backgroundTint="#FFFFFF" />
+
+
+
+</RelativeLayout>
+

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity19">
+
+
+    <TextView
+        android:id="@+id/catergorytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Category"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#37474F"
+        android:clickable="true"
+        android:focusable="true" />
+
+
+    <ImageView
+        android:id="@+id/FruitsVegetables"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/dish1" />
+
+    <ImageView
+        android:id="@+id/Breakfast"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/dish2" />
+
+    <ImageView
+        android:id="@+id/Beverages"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="370dp"
+        android:src="@drawable/dish3" />
+
+    <ImageView
+        android:id="@+id/Meat"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="370dp"
+        android:src="@drawable/dish4" />
+
+    <ImageView
+        android:id="@+id/Snacks"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="540dp"
+        android:src="@drawable/dish5" />
+
+    <ImageView
+        android:id="@+id/Dairy"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="540dp"
+        android:src="@drawable/dish6" />
+
+
+    <!-- Bottom Navigation View -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:menu="@menu/guest_navigation"
+        app:backgroundTint="#F3E9DF"
+        android:layout_alignParentBottom="true" />
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+

@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+
+    <!-- Blue Background -->
+    <RelativeLayout
+        android:id="@+id/blueBackground"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rounded_bottom_background">
+
+
+        <!-- Left Arrow Button -->
+        <ImageButton
+            android:id="@+id/buttonLeftArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:background="@android:color/transparent"
+            app:tint="#131313" />
+
+        <!-- "Hi, I’m John Cooper" Text -->
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chat With Us"
+            android:textStyle="bold"
+            android:textColor="#1E1D1D"
+            android:textSize="30sp"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="60dp"/>
+
+        <ImageButton
+            android:id="@+id/callemoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/textName"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/baseline_call_24"
+            android:background="@android:color/transparent"/>
+
+        <ImageButton
+            android:id="@+id/videoemoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/textName"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/white_video_2"
+            android:background="@android:color/transparent"/>
+
+    </RelativeLayout>
+
+
+    <!-- RecyclerView for messages -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/messageRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blueBackground"
+        android:layout_marginTop="16dp"
+        android:clipToPadding="false"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="100dp" />
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/chatInputContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="610dp">
+
+        <EditText
+            android:id="@+id/chatInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:background="@drawable/chat_input_background"
+            android:hint="  Type something..."
+            android:textColor="@color/black"
+            android:padding="30dp" />
+
+        <ImageButton
+            android:id="@+id/sendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/send_button"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="345dp"/>
+
+        <ImageButton
+            android:id="@+id/microphoneButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/microphone_img"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="318dp"/>
+
+        <ImageButton
+            android:id="@+id/cameraButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/filled_camera_img"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="290dp"/>
+
+        <ImageButton
+            android:id="@+id/photoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/photo_img"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="10dp"/>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
